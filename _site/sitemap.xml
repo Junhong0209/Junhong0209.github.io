@@ -33,20 +33,4 @@
 
     </url>
   
-    <url>
-      <loc>http://localhost:4000/review/2020/07/27/review-book-do-it-ds-algorithm/</loc>
-      
-        <lastmod>2020-07-27T00:00:00+09:00</lastmod>
-      
-
-      
-        <changefreq>weekly</changefreq>
-      
-
-      
-          <priority>1.0</priority>
-      
-
-    </url>
-  
 </urlset>
