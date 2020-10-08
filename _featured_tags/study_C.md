@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
 title: C
-slug: study
+slug: Study_C
 category: study
 menu: false
 order: 1

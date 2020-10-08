@@ -6,15 +6,56 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Oct 2020 15:43:03 +0900</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2020 15:43:03 +0900</lastBuildDate>
+    <pubDate>Thu, 08 Oct 2020 21:56:38 +0900</pubDate>
+    <lastBuildDate>Thu, 08 Oct 2020 21:56:38 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>[React] React-Bootstrap Study</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;학생 전문가 특강 신청 웹 사이트&lt;br /&gt;
+학교에서 사용할 ‘학생 전문가 특강 신청 웹 사이트’를 만들기 위해 선배들에게 React를 배우는 중&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;전에 3학년 선배들이 학교에서 사용할 웹 사이트를 만들었는데, 3학년 선배들은 이제 취업을 하고 학교를 떠나기 때문에 웹 사이트를 유지보수할 사람이 필요하다고 하셨다.&lt;/p&gt;
+
+&lt;p&gt;나는 비록 유지보수지만 하나의 프로젝트에 참여를 할 수 있으므로 하겠다고 신청을 하였다.&lt;br /&gt;
+&lt;del&gt;공부를 시작한 건 좀 되었지만 학교 생활과 이것 저것 하느라 못 쓰다 이제서야 블로그를 쓰게 되었다.&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;오늘 배운 것은 React-Bootstrap 중 Navbar, Nav, NavDropdown, Modal을 배웠다.
+Navbar는 Bootstrap에서 메뉴바를 만드는데 도움을 준다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;내가 공부하면서 만드는 React이다.
+&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_Study/Navbar.jpg&quot; alt=&quot;React Navbar&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Wed, 07 Oct 2020 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/study/2020/10/07/React_Study/</link>
+        <guid isPermaLink="true">http://localhost:4000/study/2020/10/07/React_Study/</guid>
+        
+        <category>Study_WEB</category>
+        
+        <category>Nav</category>
+        
+        <category>Navbar</category>
+        
+        <category>NavDropdown</category>
+        
+        <category>Modal</category>
+        
+        
+        <category>study</category>
+        
+      </item>
     
       <item>
         <title>[학교 생활] 2020 대구 SW고 소프트웨어 축제</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;코로나 때문에 못할줄 알았던 교내 축제&lt;br /&gt;
-나는 왜 고기를 굽는다고 해서 고기 10KG을 굽는 노예가 되었는가&lt;/p&gt;
+나는 왜 고기를 굽는다고 해서 고기 10kg을 굽는 노예가 되었는가&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;hr /&gt;
