@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Oct 2020 21:56:38 +0900</pubDate>
-    <lastBuildDate>Thu, 08 Oct 2020 21:56:38 +0900</lastBuildDate>
+    <pubDate>Thu, 08 Oct 2020 23:21:09 +0900</pubDate>
+    <lastBuildDate>Thu, 08 Oct 2020 23:21:09 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -25,11 +25,39 @@
 &lt;del&gt;공부를 시작한 건 좀 되었지만 학교 생활과 이것 저것 하느라 못 쓰다 이제서야 블로그를 쓰게 되었다.&lt;/del&gt;&lt;/p&gt;
 
 &lt;p&gt;오늘 배운 것은 React-Bootstrap 중 Navbar, Nav, NavDropdown, Modal을 배웠다.
-Navbar는 Bootstrap에서 메뉴바를 만드는데 도움을 준다.&lt;/p&gt;
+Navbar는 Bootstrap에서 메뉴바를 만드는데 도움을 준다.
+&lt;del&gt;설명하기 편하게 Navbar는 메뉴바로, Nav는 메뉴로 설명을 하겠다.&lt;/del&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;내가 공부하면서 만드는 React이다.
-&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_Study/Navbar.jpg&quot; alt=&quot;React Navbar&quot; /&gt;&lt;/p&gt;
+저기 빨간 네모 쳐져 있는 곳이 메뉴바이다.
+&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_Study/Navbar.jpg&quot; alt=&quot;React Navbar&quot; /&gt;
+빨간 네모가 쳐져 있는 곳이 메뉴바를 만든 코드이다.
+&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_study/Navbar_Code.jpg&quot; alt=&quot;React Navbar Code&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;메뉴바는 우리가 어느 웹 사이트를 들어가든 가장 상단에 위치하고 있고, 어느 웹에든지 기본으로 들어가있다. 그렇기 때문에 가장 쉽기도 하다.&lt;/p&gt;
+
+&lt;p&gt;메뉴바를 만들었으면 메뉴바에 들어갈 여러가지 메뉴가 있어야 한다.
+이 다음으로는 메뉴바에 들어갈 메뉴들을 만들었다.&lt;/p&gt;
+
+&lt;p&gt;메뉴는 누르면 링크가 연결되어 있는곳으로 이동하게 된다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;빨간 네모가 쳐져 있는 곳이 메뉴바안의 메뉴이다.
+&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_Study/Nav.jpg&quot; alt=&quot;React Nav&quot; /&gt;
+빨간 네모가 쳐져 있는 곳이 메뉴를 만든 코드이다.
+&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_study/Nav_Code.jpg&quot; alt=&quot;React Nav Code&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;다음으로 설명 할 것은 Dropdown이라는 것이다.
+메뉴바의 메뉴 중에 Dropdown이라는게 보일 것이다. Dropdown은 하나의 기능인데, 그 기능은 어떤 메뉴를 클릭하면 (누르면) 하위 메뉴가 나오는 기능이다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;빨간 네모가 쳐져 있는 곳이 Dropdown이다.
+&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_study/Nav_Dropdown.jpg&quot; alt=&quot;React Nav Dropdown&quot; /&gt;
+빨간 네모가 쳐져 있는 곳이 Dropdown 코드이다.
+&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_study/Nav_Dropdown_Code.jpg&quot; alt=&quot;React Nav Dropdown Code&quot; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 07 Oct 2020 00:00:00 +0900</pubDate>
