@@ -25,7 +25,7 @@ Navbar는 Bootstrap에서 메뉴바를 만드는데 도움을 준다.
 > 저기 빨간 네모 쳐져 있는 곳이 메뉴바이다.
 ![React Navbar](https://Junhong0209.github.io/assets/img/React_Study/Navbar.jpg)
 > 빨간 네모가 쳐져 있는 곳이 메뉴바를 만든 코드이다.
-![React Navbar Code](https://Junhong0209.github.io/assets/img/React_study/Navbar_Code.jpg)
+![React Navbar Code](https://Junhong0209.github.io/assets/img/React_Study/Navbar_Code.jpg)
 
 메뉴바는 우리가 어느 웹 사이트를 들어가든 가장 상단에 위치하고 있고, 어느 웹에든지 기본으로 들어가있다. 그렇기 때문에 가장 쉽기도 하다.  
 
@@ -37,12 +37,26 @@ Navbar는 Bootstrap에서 메뉴바를 만드는데 도움을 준다.
 > 빨간 네모가 쳐져 있는 곳이 메뉴바안의 메뉴이다.
 ![React Nav](https://Junhong0209.github.io/assets/img/React_Study/Nav.jpg)
 > 빨간 네모가 쳐져 있는 곳이 메뉴를 만든 코드이다.
-![React Nav Code](https://Junhong0209.github.io/assets/img/React_study/Nav_Code.jpg)
+![React Nav Code](https://Junhong0209.github.io/assets/img/React_Study/Nav_Code.jpg)
 
 다음으로 설명 할 것은 Dropdown이라는 것이다.
 메뉴바의 메뉴 중에 Dropdown이라는게 보일 것이다. Dropdown은 하나의 기능인데, 그 기능은 어떤 메뉴를 클릭하면 (누르면) 하위 메뉴가 나오는 기능이다.  
 
 > 빨간 네모가 쳐져 있는 곳이 Dropdown이다.
-![React Nav Dropdown](https://Junhong0209.github.io/assets/img/React_study/Nav_Dropdown.jpg)
+![React Nav Dropdown](https://Junhong0209.github.io/assets/img/React_Study/Nav_Dropdown.jpg)
 > 빨간 네모가 쳐져 있는 곳이 Dropdown 코드이다.
-![React Nav Dropdown Code](https://Junhong0209.github.io/assets/img/React_study/Nav_Dropdown_Code.jpg)
+![React Nav Dropdown Code](https://Junhong0209.github.io/assets/img/React_Study/Nav_Dropdown_Code.jpg)
+
+마지막으로 설명 할 것은 Modal이라는 것인데, Modal은 우리가 웹 사이트에서 볼 수 있는 팝업창을 말한다. 웹 페이지를 옮기는 것이 아니라 그 웹 페이지에서 팝업창을 띄운다.
+
+> 빨간 네모가 쳐져 있는 곳이 Modal을 띄우는 버튼이다.
+![React Modal Button](https://Junhong0209.github.io/assets/img/React_Study/Modal_Button.jpg)
+> 빨간 네모가 쳐져 있는 곳이 Modal, 즉 팝업창이다.
+![React Modal](https://Junhong0209.github.io/assets/img/React_Study/Modal.jpg)
+> Modal을 띄우는 버튼의 코드이다.
+![React Modal Button Code](https://Junhong0209.github.io/assets/img/React_Study/Modal_Button_Code 1.jpg)
+![React Modal Button Code](https://Junhong0209.github.io/assets/img/React_Study/Modal_Button_Code 2.jpg)
+> 빨간 네모가 쳐져 있는 곳이 Modal, 즉 팝업창의 코드이다.
+![React Modal Code](https://Junhong0209.github.io/assets/img/React_Study/Modal_Code.jpg)
+
+React를 처음하는거라 많이 힘들지만 하나씩 배워가면서 흥미를 느꼈고, 열심히 해야겠다라는 생각이 들었다.

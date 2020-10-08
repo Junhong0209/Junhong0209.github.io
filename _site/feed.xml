@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Oct 2020 23:21:09 +0900</pubDate>
-    <lastBuildDate>Thu, 08 Oct 2020 23:21:09 +0900</lastBuildDate>
+    <pubDate>Thu, 08 Oct 2020 23:52:33 +0900</pubDate>
+    <lastBuildDate>Thu, 08 Oct 2020 23:52:33 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -33,7 +33,7 @@ Navbar는 Bootstrap에서 메뉴바를 만드는데 도움을 준다.
 저기 빨간 네모 쳐져 있는 곳이 메뉴바이다.
 &lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_Study/Navbar.jpg&quot; alt=&quot;React Navbar&quot; /&gt;
 빨간 네모가 쳐져 있는 곳이 메뉴바를 만든 코드이다.
-&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_study/Navbar_Code.jpg&quot; alt=&quot;React Navbar Code&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_Study/Navbar_Code.jpg&quot; alt=&quot;React Navbar Code&quot; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;메뉴바는 우리가 어느 웹 사이트를 들어가든 가장 상단에 위치하고 있고, 어느 웹에든지 기본으로 들어가있다. 그렇기 때문에 가장 쉽기도 하다.&lt;/p&gt;
@@ -47,7 +47,7 @@ Navbar는 Bootstrap에서 메뉴바를 만드는데 도움을 준다.
   &lt;p&gt;빨간 네모가 쳐져 있는 곳이 메뉴바안의 메뉴이다.
 &lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_Study/Nav.jpg&quot; alt=&quot;React Nav&quot; /&gt;
 빨간 네모가 쳐져 있는 곳이 메뉴를 만든 코드이다.
-&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_study/Nav_Code.jpg&quot; alt=&quot;React Nav Code&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_Study/Nav_Code.jpg&quot; alt=&quot;React Nav Code&quot; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;다음으로 설명 할 것은 Dropdown이라는 것이다.
@@ -55,10 +55,26 @@ Navbar는 Bootstrap에서 메뉴바를 만드는데 도움을 준다.
 
 &lt;blockquote&gt;
   &lt;p&gt;빨간 네모가 쳐져 있는 곳이 Dropdown이다.
-&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_study/Nav_Dropdown.jpg&quot; alt=&quot;React Nav Dropdown&quot; /&gt;
+&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_Study/Nav_Dropdown.jpg&quot; alt=&quot;React Nav Dropdown&quot; /&gt;
 빨간 네모가 쳐져 있는 곳이 Dropdown 코드이다.
-&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_study/Nav_Dropdown_Code.jpg&quot; alt=&quot;React Nav Dropdown Code&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_Study/Nav_Dropdown_Code.jpg&quot; alt=&quot;React Nav Dropdown Code&quot; /&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;p&gt;마지막으로 설명 할 것은 Modal이라는 것인데, Modal은 우리가 웹 사이트에서 볼 수 있는 팝업창을 말한다. 웹 페이지를 옮기는 것이 아니라 그 웹 페이지에서 팝업창을 띄운다.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;빨간 네모가 쳐져 있는 곳이 Modal을 띄우는 버튼이다.
+&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_Study/Modal_Button.jpg&quot; alt=&quot;React Modal Button&quot; /&gt;
+빨간 네모가 쳐져 있는 곳이 Modal, 즉 팝업창이다.
+&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_Study/Modal.jpg&quot; alt=&quot;React Modal&quot; /&gt;
+Modal을 띄우는 버튼의 코드이다.
+&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_Study/Modal_Button_Code 1.jpg&quot; alt=&quot;React Modal Button Code&quot; /&gt;
+&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_Study/Modal_Button_Code 2.jpg&quot; alt=&quot;React Modal Button Code&quot; /&gt;
+빨간 네모가 쳐져 있는 곳이 Modal, 즉 팝업창의 코드이다.
+&lt;img src=&quot;https://Junhong0209.github.io/assets/img/React_Study/Modal_Code.jpg&quot; alt=&quot;React Modal Code&quot; /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;React를 처음하는거라 많이 힘들지만 하나씩 배워가면서 흥미를 느끼고 열심히 해야겠다.&lt;/p&gt;
 </description>
         <pubDate>Wed, 07 Oct 2020 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/study/2020/10/07/React_Study/</link>
