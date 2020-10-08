@@ -56,7 +56,7 @@ Navbar는 Bootstrap에서 메뉴바를 만드는데 도움을 준다.
 > Modal을 띄우는 버튼의 코드이다.
 ![React Modal Button Code](https://Junhong0209.github.io/assets/img/React_Study/Modal_Button_Code 1.jpg)
 ![React Modal Button Code](https://Junhong0209.github.io/assets/img/React_Study/Modal_Button_Code 2.jpg)
-> 빨간 네모가 쳐져 있는 곳이 Modal, 즉 팝업창의 코드이다.
+> 이 사진이 Modal의 코드, 즉 팝업창의 코드이다.
 ![React Modal Code](https://Junhong0209.github.io/assets/img/React_Study/Modal_Code.jpg)
 
 React를 처음하는거라 많이 힘들지만 하나씩 배워가면서 흥미를 느꼈고, 열심히 해야겠다라는 생각이 들었다.
