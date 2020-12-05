@@ -1,6 +1,6 @@
 ---
 layout: post  
-title: "[React] React-Bootstrap Study"  
+title: "[Study] React-Bootstrap Study"  
 subtitle: "React Study"  
 categories: study  
 tags: Study_WEB Nav Navbar NavDropdown Modal  
