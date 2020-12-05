@@ -6,5 +6,5 @@ menu: true
 submenu: true
 order: 1
 description: >
-  C, HTML & CSS, JS, React 등 내 꿈을 위해 공부한거 올리는 곳
+  C, JS, React 등 프로그래밍과 관련된 것을 올리는 곳
 ---
