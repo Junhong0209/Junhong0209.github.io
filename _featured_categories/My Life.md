@@ -1,7 +1,7 @@
 ---
 layout: list
 title: My Life
-slug: my_life
+slug: mylife
 menu: true
 submenu: false
 order: 3
