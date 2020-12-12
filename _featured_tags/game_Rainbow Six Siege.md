@@ -1,6 +1,6 @@
 ---
 layout: tag-blog
-title: Rainbow Sic Siege
+title: Rainbow Six Siege
 slug: game
 category: game
 menu: false
