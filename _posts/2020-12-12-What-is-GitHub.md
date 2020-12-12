@@ -2,7 +2,7 @@
 layout: post  
 title: "[Git, GitHub] Git, GitHub란?"  
 subtitle: "git, GitHub란?"  
-categories: Other 
+categories: other 
 tags: other Git GitHub What_is_Git? What_is_GitHub?  
 comments: ture  
 ---
