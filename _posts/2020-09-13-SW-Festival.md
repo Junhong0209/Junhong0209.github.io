@@ -2,7 +2,7 @@
 layout: post  
 title: "[학교 생활] 2020 대구 SW고 소프트웨어 축제"  
 subtitle: "학교 축제"  
-categories: my life 
+categories: my_life 
 tags: my_life 축제 고기_노예_분명_축제_이름은_소프트웨어_축제인데 난_왜_고기만_굽고_있는가
 comments: ture  
 ---
