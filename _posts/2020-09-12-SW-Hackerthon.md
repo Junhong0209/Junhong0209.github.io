@@ -2,7 +2,7 @@
 layout: post  
 title: "[학교 생활] 2020 대구 SW고 교내 해커톤 대회"  
 subtitle: "교내 해커톤 대회"  
-categories: My_Life 
+categories: my_life 
 tags: My_Life Programming_study DGSW 대소고 교내_해커톤 대구_SW고 Web App Server Embedded  
 comments: ture  
 ---
