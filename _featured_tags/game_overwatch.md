@@ -1,6 +1,6 @@
 ---
 layout: tag-blog
-title: OVERWATCH
+title: Overwatch
 slug: game
 category: game
 menu: false

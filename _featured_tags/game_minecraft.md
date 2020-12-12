@@ -1,6 +1,6 @@
 ---
 layout: tag-blog
-title: MINECRAFT
+title: Minecraft
 slug: game
 category: game
 menu: false

@@ -1,6 +1,6 @@
 ---
 layout: tag-blog
-title: VALORANT
+title: Rainbow Sic Siege
 slug: game
 category: game
 menu: false
