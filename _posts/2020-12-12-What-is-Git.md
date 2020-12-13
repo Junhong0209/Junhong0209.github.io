@@ -14,7 +14,5 @@ comments: ture
   
 > 1.깃(Git)이란?  
 
-[공식 Site 한글 메뉴얼]  
+[공식 Site 한글 메뉴얼](https://git-scm.com/book/ko/v2)  
 1.1 
-
-[공식 Site 한글 메뉴얼] : https://git-scm.com/book/ko/v2
