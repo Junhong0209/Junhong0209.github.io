@@ -16,7 +16,7 @@ comments: ture
 
 [공식 Site 한글 메뉴얼](https://git-scm.com/book/ko/v2)  
 
-#### 1.1 형상 관리 도구(Configuration Management Tool)중 하나.
+### 1.1 형상 관리 도구(Configuration Management Tool)중 하나.
 
 -참고로 형상 관리 도구는 **버전 관리 시스템**이라고도 한다.
 
@@ -26,7 +26,7 @@ comments: ture
 
   
 
-#### 1.2 SVN과 Git의 차이점
+### 1.2 SVN과 Git의 차이점
 
 -Git이 SVN과 다른 점은 **분산형 관리 시스템**이라는 것이다.
 
