@@ -47,3 +47,5 @@ Git으로 저장되서 원격 전송된 파일들이 저장되는 공간을 제�
 
 자 간단하게 GitHub에서 저장소(repository)를 만들어 보았다.
 이제 저 곳에 코드를 올리기 위해서는 GitHub Desktop, Git Bash 등을 사용하여 저장소에 올릴 수 있다.
+
+GitHub Desktop, Git Bash 사용 법은 나중에 차차 올리도록 하겠다.
