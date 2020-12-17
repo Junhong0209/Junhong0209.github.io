@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 17 Dec 2020 10:20:09 +0900</pubDate>
-    <lastBuildDate>Thu, 17 Dec 2020 10:20:09 +0900</lastBuildDate>
+    <pubDate>Thu, 17 Dec 2020 10:27:25 +0900</pubDate>
+    <lastBuildDate>Thu, 17 Dec 2020 10:27:25 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -47,12 +47,12 @@
 또는 아니디어나 리소스, 다른 사람들과 공유하거나 토론하는 것들도 저장할 수 있다.&lt;/p&gt;
 
 &lt;h3 id=&quot;1-우-상단의--버튼을-클릭하고-new-repository를-선택한다&quot;&gt;1. 우 상단의 ‘+’ 버튼을 클릭하고 New repository를 선택한다.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://Junhong0209.github.io/asstes/img/Github Use/repository 1&quot; alt=&quot;Repository 1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://Junhong0209.github.io/assets/img/GitHub_Use/repository_1.png&quot; alt=&quot;Repository 1&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;2-hello-world-라고-이름을-주고-간단하게-저장소에-대한-설명을-넣는다&quot;&gt;2. “hello-world” 라고 이름을 주고, 간단하게 저장소에 대한 설명을 넣는다.&lt;/h3&gt;
 
 &lt;h3 id=&quot;3-initialize-this-repository-with-a-readme를-체크하고-create-repository-버튼을-클릭한다&quot;&gt;3. Initialize this repository with a README를 체크하고, Create repository 버튼을 클릭한다.&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;https://Junhong0209.github.io/asstes/img/Github Use/repository 2&quot; alt=&quot;Repository 2&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://Junhong0209.github.io/assets/img/GitHub_Use/repository_2.png&quot; alt=&quot;Repository 2&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;자 간단하게 GitHub에서 저장소(repository)를 만들어 보았다.
 이제 저 곳에 코드를 올리기 위해서는 GitHub Desktop, Git Bash 등을 사용하여 저장소에 올릴 수 있다.&lt;/p&gt;
