@@ -38,12 +38,12 @@ Git으로 저장되서 원격 전송된 파일들이 저장되는 공간을 제�
 또는 아니디어나 리소스, 다른 사람들과 공유하거나 토론하는 것들도 저장할 수 있다.
 
 ### 1. 우 상단의 '+' 버튼을 클릭하고 New repository를 선택한다.
-![Repository 1](https://Junhong0209.github.io/asstes/img/Github Use/repository 1)
+![Repository 1](https://Junhong0209.github.io/asstes/img/Github Use/repository 1.png)
 
 ### 2. "hello-world" 라고 이름을 주고, 간단하게 저장소에 대한 설명을 넣는다.  
 
 ### 3. Initialize this repository with a README를 체크하고, Create repository 버튼을 클릭한다.
-![Repository 2](https://Junhong0209.github.io/asstes/img/Github Use/repository 2)
+![Repository 2](https://Junhong0209.github.io/asstes/img/Github Use/repository 2.png)
 
 자 간단하게 GitHub에서 저장소(repository)를 만들어 보았다.
 이제 저 곳에 코드를 올리기 위해서는 GitHub Desktop, Git Bash 등을 사용하여 저장소에 올릴 수 있다.
