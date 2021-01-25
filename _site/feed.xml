@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 Jan 2021 22:08:01 +0900</pubDate>
-    <lastBuildDate>Mon, 25 Jan 2021 22:08:01 +0900</lastBuildDate>
+    <pubDate>Mon, 25 Jan 2021 22:11:52 +0900</pubDate>
+    <lastBuildDate>Mon, 25 Jan 2021 22:11:52 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -76,7 +76,7 @@ $ git init
   &lt;h1 id=&quot;git-add&quot;&gt;git add&lt;/h1&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;// 파일을 준비 영역으로 (Staging Area)으로 옮김 (GitHub와 연동하려면 git remote로 원격 저장소롸 연결해야 함)&lt;/p&gt;
+&lt;p&gt;// 파일을 준비 영역으로 (Staging Area)으로 옮김 (GitHub와 연동하려면 git remote로 원격 저장소와 연결해야 함)&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// a.html 파일만 추가
 $ git add a.html

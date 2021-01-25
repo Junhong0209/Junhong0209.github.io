@@ -59,7 +59,7 @@ $ git init
 
 > # git add
 
-// 파일을 준비 영역으로 (Staging Area)으로 옮김 (GitHub와 연동하려면 git remote로 원격 저장소롸 연결해야 함)
+// 파일을 준비 영역으로 (Staging Area)으로 옮김 (GitHub와 연동하려면 git remote로 원격 저장소와 연결해야 함)
 
 ```
 // a.html 파일만 추가
