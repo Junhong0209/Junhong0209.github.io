@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 Jan 2021 21:27:16 +0900</pubDate>
-    <lastBuildDate>Mon, 25 Jan 2021 21:27:16 +0900</lastBuildDate>
+    <pubDate>Mon, 25 Jan 2021 22:08:01 +0900</pubDate>
+    <lastBuildDate>Mon, 25 Jan 2021 22:08:01 +0900</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -35,132 +35,171 @@ GitBash 사용법&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;h1 id=&quot;git-config-최초-1회-실행&quot;&gt;git config (최초 1회 실행)&lt;/h1&gt;
-  &lt;hr /&gt;
-  &lt;p&gt;처음 사용시 사용자 등록을 해야한다.&lt;br /&gt;
-``
-// git commit에 사용될 username
-$git config –global user.name “[이름]”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;// git commit에 사용될 email
-$git config –global user.email “[이메일 주소]”&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;// 설정한 내용을 확인할 수 있다.
-$git config –list
-``&lt;/p&gt;
+&lt;p&gt;// 처음 사용시 사용자 등록을 해야한다.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// git commit에 사용될 username
+$ git config --global user.name &quot;[이름]&quot;
+
+// git commit에 사용될 email
+$ git config --global user.email &quot;[이메일 주소]&quot;
+
+// 설정한 내용을 확인할 수 있다.
+$ git config --list
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;blockquote&gt;
   &lt;h1 id=&quot;git-init&quot;&gt;git init&lt;/h1&gt;
-  &lt;hr /&gt;
-  &lt;p&gt;현재 디렉토리를 로컬 저장소로 설정한다.
-```
-// 로컬 저장소로 설정할 프로젝트 위치로 이돌
-cd 프로젝트 path&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;// 로컬 저장소로 설정
+&lt;hr /&gt;
+
+&lt;p&gt;// 현재 디렉토리를 로컬 저장소로 설정한다.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// 로컬 저장소로 설정
 // (master) 브랜치로 보이면 성공!
-$git init&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&amp;gt; # git status  
-* * *
-// 로컬 저장소의 현재 상태 보여줌
-
-&amp;gt; # git add  
-* * *
-// 파일을 준비영역 (Staging Area)으로 옮김 (GitHub와 연동하려면 git remote로 원격 저장소와 연결해야 함)
+$ git init
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;// a.html 파일만 추가
-$git add a.html&lt;/p&gt;
 
-&lt;p&gt;// 워킹 디렉터리 내 모든 파일을 추가
-$git add .&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;h1 id=&quot;git-status&quot;&gt;git status&lt;/h1&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;// 명령 프롬프트에서 상호작용하면서 추가 (나갈땐 q를 입력)
-$git add -i&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;// 진행중인 파일일 경우, Staging Area에서 워킹 디렉터리로 옮긴다.
-$git rm –cached a.html
-$git rm -r –cached .&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&amp;gt; # git commit  
-* * *
-// 준비영역(Staging Area)의 파일을 로컬 저장소에 저장
+&lt;p&gt;// 로컬 저장소의 현재 상태 보여줌&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h1 id=&quot;git-add&quot;&gt;git add&lt;/h1&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;// 파일을 준비 영역으로 (Staging Area)으로 옮김 (GitHub와 연동하려면 git remote로 원격 저장소롸 연결해야 함)&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// a.html 파일만 추가
+$ git add a.html
+
+// 워킹 디렉터리 내 모든 파일을 추가
+$ git add .
+
+// 명령 프롬프트에서 상호작용하면서 추가 (나갈땐 q를 입력)
+$ git add -i
+
+// 진행중인 파일일 경우, Staging Area에서 워킹 디렉터리로 옮긴다.
+$ git rm --cached a.html
+$ git rm -r --cached .
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;// 에디터가 출력되고, 에디터에서 커밋 메세지 입력 후 저장하면 커밋된
-$git commit&lt;/p&gt;
 
-&lt;p&gt;// 간단한 커밋 메세지를 입력 후 커밋
-$git commit -m “커밋 메세지”&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;h1 id=&quot;git-commit&quot;&gt;git commit&lt;/h1&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;// Staging Area에 들러간 파일에 대해서만 (워킹 디렉터리는 적용 X)
-$git commit -a -m “커밋 메세지”&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&amp;gt; # git remote  
-* * *
-// 로컬 저장소와 원격 저장소를 연결
+&lt;hr /&gt;
+
+&lt;p&gt;// 준비영역 (Staging Area)의 파일을 로컬 저장소에 저장&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// 에디터가 출력되고, 에디터에서 커밋 메세지 입력 후 저장하면 커밋된다.
+$ git commit
+
+// 간단한 커밋 메세지를 입력 후 커밋
+$ git commit -m &quot;커밋 메세지&quot;
+
+// Staging Area에 들어간 파일에 대해서만 (워킹 디렉터리는 적용 X)
+$ git commit -a -m &quot;커밋 메세지&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;// GitHub 원격 저장소와 연결한다.
-$git remote add origin [자신의 Github 원격저장소 주소]&lt;/p&gt;
 
-&lt;p&gt;// 연결된 원격저장소 확인한다.
-$git remote -v&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&amp;gt; # git push  
-* * *
-// 원격 저장소에 저장
+&lt;blockquote&gt;
+  &lt;h1 id=&quot;git-remote&quot;&gt;git remote&lt;/h1&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;// 로컬 저장소와 원격 저장소를 연결&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// GitHub 원격 저장소와 연결한다.
+$ git remote add origin [자신의 GitHub 원격 저장소 주소]
+
+// 연결된 원격 저장소를 확인한다.
+$ git remote -v
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;// 원격 저장소에 저장한다.
-$git push -u origin master&lt;/p&gt;
 
-&lt;p&gt;// 에러 -! [rejected] master -&amp;gt; master (fetch first)
-// 이미 변경된 파일이 원격저장소에 있을 경우 발생
-$git pull origin master&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;h1 id=&quot;git-push&quot;&gt;git push&lt;/h1&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;// 에러 -! [rejected] master -&amp;gt; master (non-fast-forward)
-$git push origin +master&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&amp;gt; # git branch  
-* * *
-// 브랜치 생성, 수정, 삭제
+&lt;hr /&gt;
+
+&lt;p&gt;// 원격 저장소에 저장&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// 원격 저장소에 저장한다.
+$ git push -u origin master
+
+// 에러 -! [rejected] master -&amp;gt; master (fetch first)
+// 이미 변경된 파일이 원격 저장소에 있을 경우 발생
+$ git pull origin master
+
+// 에러 -! [rejected] master -&amp;gt; master (non-fast-forward)
+$ git push origin +master
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;// 브랜치 보기
-$git branch&lt;/p&gt;
 
-&lt;p&gt;// 브랜치 생성
-$git branch [브랜치 명]&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;h1 id=&quot;git-branch&quot;&gt;git branch&lt;/h1&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;// 브랜치 수정
-$git branch -m [브랜치 명] [바꿀 이름]&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;// 브랜치 삭제
-$git branch -d [브랜치 명]&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&amp;gt; # git checkout  
-* * *
-// 워킹 디렉토리 소스를 특정 커밋이나 특정 브랜치로 변경
+&lt;p&gt;// 브랜치 생성, 수정 삭제&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// 브랜치 보기
+$ git branch
+
+// 브랜치 생성
+$ git branch [브랜치 명]
+
+// 브랜치 수정
+$ git branch -m [브랜치 명] [바꿀 이름]
+
+// 브랜치 삭제
+$ git branch -d [브랜치 명]
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;// 특정 브랜치로 워킹 디렉터리 변경
-$git checkout [브랜치 명]&lt;/p&gt;
 
-&lt;p&gt;// 특정 커밋으로 워킹 디렉터리 변경
-$git checkout [Commit ID]&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;h1 id=&quot;git-checkout&quot;&gt;git checkout&lt;/h1&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;// 특정 파일을 해당 브랜치 또는 커밋 상대로 변경 (원복)
-$git checkout [돌아갈 Commit ID] –[파일 경로]
-*충돌 방지를 위해 브랜치 명을 확인하고, 파일 추가 및 수정한 뒤 커밋해야 한다.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;// 브랜치 생성 및 테크아웃을 같이 할 경우
-$git checkout -b develop&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&amp;gt; # git merge  
-* * *
-// 다른 두 개의 브랜치 소스 병합
+&lt;p&gt;// 워킹 디렉토리 소스를 특정 커밋이나 특정 브랜치로 변경&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;// 특정 브랜치로 워킬 디렉터리 변경
+$ git checkout [브랜치 명]
+
+// 특정 커밋으로 워킹 디렉터리 변경  
+$git checkout [Commit ID]  
+
+// 특정 파일을 해당 브랜치 또는 커밋 상대로 변경 (원복)  
+$git checkout [돌아갈 Commit ID] --[파일 경로]  
+*충돌 방지를 위해 브랜치 명을 확인하고, 파일 추가 및 수정한 뒤 커밋해야 한다.  
+
+// 브랜치 생성 및 테크아웃을 같이 할 경우  
+$git checkout -b develop 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;$git checkout master
-$git merge develop
-*같은 파일의 같은 위치의 내용이 변경된 경우 충돌이 발생한다.
-```&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h1 id=&quot;git-merge&quot;&gt;git merge&lt;/h1&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;// 다른 두 개의 브랜치 소스 병합&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$git checkout master  
+$git merge develop  
+*같은 파일의 같은 위치의 내용이 변경된 경우 충돌이 발생한다.  
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 </description>
         <pubDate>Mon, 25 Jan 2021 00:00:00 +0900</pubDate>
         <link>http://localhost:4000/other/2021/01/25/GitBash_Comands/</link>
