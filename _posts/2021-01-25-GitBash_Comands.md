@@ -13,7 +13,9 @@ comments: ture
 저번에 GitHub가 무엇 인지 설명하는 글에서 나중에 Git Bash에 대해서 알려준다고 해놓곤 까먹고 있었다...
 늦은 것 같지만 지금이라도 올려본다.
 
-> # 커맨드 창 명령어
+> ## 커맨드 창 명령어
+
+***
 
 ```
 * 커맨드 창 화면 초기화: Ctrl + L
@@ -24,7 +26,7 @@ comments: ture
 * 파일 내용 조회: cat [파일명]  
 ```
   
-> #  git config (최초 1회 실행)
+> ##  git config (최초 1회 실행)
 
 ***
 
@@ -41,7 +43,7 @@ $ git config --global user.email "[이메일 주소]"
 $ git config --list
 ```
 
-> # git init
+> ## git init
 
 ***
 
@@ -53,13 +55,13 @@ $ git config --list
 $ git init
 ```
 
-> # git status
+> ## git status
 
 ***
 
 // 로컬 저장소의 현재 상태 보여줌
 
-> # git add
+> ## git add
 
 // 파일을 준비 영역으로 (Staging Area)으로 옮김 (GitHub와 연동하려면 git remote로 원격 저장소와 연결해야 함)
 
@@ -78,7 +80,7 @@ $ git rm --cached a.html
 $ git rm -r --cached .
 ```
 
-> # git commit
+> ## git commit
 
 ***
 
@@ -95,7 +97,7 @@ $ git commit -m "커밋 메세지"
 $ git commit -a -m "커밋 메세지"
 ```
 
-> # git remote
+> ## git remote
 
 ****
 
@@ -109,7 +111,7 @@ $ git remote add origin [자신의 GitHub 원격 저장소 주소]
 $ git remote -v
 ```
 
-> # git push
+> ## git push
 
 ***
 
@@ -127,7 +129,7 @@ $ git pull origin master
 $ git push origin +master
 ```
 
-> # git branch
+> ## git branch
 
 ****
 
@@ -147,7 +149,7 @@ $ git branch -m [브랜치 명] [바꿀 이름]
 $ git branch -d [브랜치 명]
 ```
 
-> # git checkout
+> ## git checkout
 
 ***
 
@@ -168,7 +170,7 @@ $git checkout [돌아갈 Commit ID] --[파일 경로]
 $git checkout -b develop 
 ```
 
-> # git merge
+> ## git merge
 
 ***
 
